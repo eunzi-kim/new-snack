@@ -1,0 +1,24 @@
+#nav {
+  display: flex;
+  font-family: "IM_Hyemin-Regular";
+  justify-content: space-around;
+  font-size: 1.5rem;
+  margin-top: 60px;
+}
+.nav-btn {
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+.nav-btn:hover {
+  cursor: pointer;
+  color: #fe929f;
+}
+#nav-line {
+  background-color: #ece4e2;
+  height: 0.1rem;
+  margin: 1rem 0;
+}
+.nav-active {
+  color: #fe929f;
+}
